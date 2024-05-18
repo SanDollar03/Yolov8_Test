@@ -9,3 +9,5 @@ yolov8_flask_app/
 ├── app.py
 └── templates/
     └── index.html
+
+http://127.0.0.1:5000/で実行

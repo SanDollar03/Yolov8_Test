@@ -1,0 +1,9 @@
+1. 仮想環境の作成
+  python -m venv yolov8-env
+2. 仮想環境の有効化
+  yolov8-env\Scripts\activate
+3. 必要なパッケージのインストール
+  pip install --upgrade pip setuptools wheel
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+  pip install ultralytics
+  pip install opencv-python
